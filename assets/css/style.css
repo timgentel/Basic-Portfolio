@@ -75,6 +75,12 @@ p {
     margin-top: 30px;
     font-weight: lighter;
 }
+.projects {
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-left: 16px; 
+    margin-right: 16px;
+}
 
 .sidebar {
     float: right;

@@ -93,8 +93,8 @@ p {
     margin-left: 16px; 
     margin-right: 16px;
 }
-.name {
-    width: auto;
+.name_1 {
+    width: align-self: 238px;
 }
 
 .sidebar {

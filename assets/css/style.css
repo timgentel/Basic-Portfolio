@@ -99,16 +99,9 @@ h3 {
     margin-bottom: 22px;
 }
 
-button {
+.icons {
     width: 64px;
     height: 64px;
-    padding: 0px;
-    border: 0px;
-    background-color: #ffffff;
-}
-.stackoverflow {
-    width: 62px;
-    height: 62px;
 }
 
 footer {
@@ -118,6 +111,7 @@ footer {
     border-top-color: #4aaaa5;
     border-top-style: solid;
     background: #666666;
+    text-align: center;
 }
 .footer,
 .push {

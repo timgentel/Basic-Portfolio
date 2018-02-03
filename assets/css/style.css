@@ -30,9 +30,21 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 nav {
-    text-align: center
+    height: 91px;
+    float: left;
+    margin-left: 320px;
+    overflow-x: auto;
+    text-align: center;
 
 }
+   
+.navbar {
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
+    text-decoration: none;
+}
+
 
 .wrapper {
     width: 960px;
@@ -80,6 +92,9 @@ p {
     margin-bottom: 23px;
     margin-left: 16px; 
     margin-right: 16px;
+}
+.name {
+    width: auto;
 }
 
 .sidebar {

@@ -16,6 +16,7 @@ header {
     border-bottom: 2px;
     border-bottom-style: solid;
     border-color: #dddddd;
+
 }
 h1 { 
     float: left;
@@ -29,8 +30,8 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 nav {
-    float: right;
-    width: 300px;
+    text-align: center
+
 }
 
 .wrapper {

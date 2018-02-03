@@ -13,27 +13,37 @@
         <header>
             <h1>Timothy Gentel</h1>   
             <nav>
-                <button class="about">About</button>
-                <button class="protfolio">protfolio</button>
-                <button class="contact">Contact</button>
+                <a class="navbar" href="https://timgentel.github.io/basic_portfolio/">About</a>
+                <a class="navbar" href="https://timgentel.github.io/basic_portfolio/portfolio">portfolio</a>
+                <a class="navbar" href="https://timgentel.github.io/basic_portfolio/contact">Contact</a>
             </nav>
         </header>
         <div class="wrapper"> 
-                <div class="content">
-                    <H2>Contact</H2>
-                    <hr/>
-                    
-                </div>
-                <aside class="sidebar">
-                        <h3>Connect with Me</h3>
-                        <hr/>
-                        <button><img src="assets/images/github.jpg"></button>
-                        <button><img src="assets/images/if_stackoverflow-square-social-media_764927.png"></button>
-                        <button><img src="assets/images/if_linkedin_square_color_107091 (1).png"></button>
-                </aside>
+            <div class="content">
+                <H2>Contact</H2>
+                <hr/>
+                <form action="/action_page.php">
+                    <label for="name">Name</label>
+                        <input type="text" class="name" name="firstname" placeholder="John Smith">
+                    <label for="email">Email</label>
+                        <input type="text" class="emal" name="lastname" placeholder="Your last name.."> 
+                    <label for="subject">Message</label>
+                        <textarea class="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <aside class="sidebar">
+                <h3>Connect with Me</h3>
+                <hr class="hrs"/>
+                <a href="https://github.com/timgentel"><img class="icons"src="assets/images/github.jpg"></a>
+                <a href="https://www.linkedin.com/in/timothy-gentel-783949157/"><img class="icons"src="assets/images/if_linkedin_square_color_107091.jpg"></a>
+                <a href="https://stackoverflow.com/users/9242802/timothy-gentel"><img class="icons"src="assets/images/if_stackoverflow_273179.jpg"></a>
+            </aside>
+            <div class="push"></div>
         </div>
         <footer>
             <p>@ copyright Timothy Gentel</p>
         </footer>    
     </body>
-</html>    
+</html>
